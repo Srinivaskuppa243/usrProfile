@@ -31,12 +31,12 @@ Make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/user-profiles.git
+   git clone https://github.com/yourusername/usrProfile.git
     ```
 2. Navigate to the project directory:
 
    ```bash
-   cd user-profiles
+   cd usrProfile
     ```
 3. Install the dependencies:
 
