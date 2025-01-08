@@ -50,15 +50,11 @@ const UserList = () => {
             <div className="row">
                 {users.map(user => (
                     <div className="col-md-3" key={user.id}>
-                        <NavLink 
-                            to={`/usr/${user.id}`} >
-
-                        <UserProfile
+                         <UserProfile
                             user={user}
                             onEdit={handleEdit}
                             onDelete={handleDelete}
                         />
-                        </NavLink>
                     </div>
                 ))}
             </div>
